@@ -1,0 +1,8 @@
+docker run -d -t -i -p 4040:4040 -p 4050:4050 -v /media/datas/\[MUSIQUE\]/Ze_Collection_niou/:/var/music -v /home/sylem/bakassab/git/subsonic/db/:/var/subsonic/db -v /home/sylem/bakassab/git/subsonic/subsonic.properties:/var/subsonic/subsonic.properties -v /home/sylem/bakassab/git/subsonic/playslists:/var/subsonic/playlists sylem/debian-subsonic
+
+docker run -d -t -i -p 4040:4040 -p 4050:4050 -v /media/datas/\[MUSIQUE\]/Ze_Collection_niou/:/var/music -v /home/sylem/bakassab/docker_datas/subsonic/db/:/var/subsonic/db -v /home/sylem/bakassab/docker_datas/subsonic/subsonic.properties:/var/subsonic/subsonic.properties -v /home/sylem/bakassab/docker_datas/subsonic/playslists:/var/subsonic/playlists sylem/debian-subsonic
+
+docker run -d -t -i -p 4040:4040 -p 4050:4050 -v /media/datas/\[MUSIQUE\]/Ze_Collection_niou/:/var/music -v /home/sylem/bakassab/docker_datas/subsonic/db/:/var/subsonic/db -v /home/sylem/bakassab/docker_datas/subsonic/subsonic.properties:/var/subsonic/subsonic.properties -v /home/sylem/bakassab/docker_datas/subsonic/playslists:/var/subsonic/playlists -v /home/sylem/bakassab/docker_datas/subsonic/lucene2/:/var/subsonic/lucene2 -v /home/sylem/bakassab/docker_datas/subsonic/subsonic.log:/var/subsonic/subsonic.log sylem/debian-subsonic
+
+docker run -d -t -i -p 4040:4040 -p 4050:4050 -v /media/datas/\[MUSIQUE\]/Ze_Collection_niou/:/var/music -v /home/sylem/bakassab/docker_datas/subsonic/:/var/subsonic sylem/debian-subsonic
+
