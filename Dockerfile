@@ -38,4 +38,3 @@ USER subsonic
 
 CMD []
 ENTRYPOINT ["/startup.sh"]
-
