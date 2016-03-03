@@ -17,6 +17,7 @@ Next steps are :
 - understand why i get less songs with the container than with subsonic installed on the host
 - deport database on a mysql container
 - manage startup of the whole thing with composer
+- maybe integrate a WAR push without time limitation for client app
 
 
 
